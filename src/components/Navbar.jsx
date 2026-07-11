@@ -8,11 +8,11 @@ const Navbar = () => {
                 <img src={logo} alt="Logo" className="h-18 w-auto"></img>
             </div>
             <nav className="mx-auto bg-blue-950 p-4 text-center text-lg font-sans text-white -mt-2">
-            <Link to="/" className="p-2 transition-colors duration-100 hover:text-yellow-400">Home</Link>
-            <Link to="/programs" className="p-2 transition-colors duration-100 hover:text-yellow-400">Programs</Link>
-            <Link to="/about" className="p-2 transition-colors duration-100 hover:text-yellow-400">About</Link>
-            <Link to="/join" className="p-2 transition-colors duration-100 hover:text-yellow-400">Join Us</Link>
-            <Link to="/donate" className="p-2 text-yellow-300 font-semibold border-2 border-yellow-300 rounded-lg m-1 transition-colors duration-100 hover:text-yellow-500 hover:border-yellow-500">Donate</Link>
+            <Link to="/" className="p-2 transition-colors duration-100 hover:text-yellow-400">home</Link>
+            <Link to="/programs" className="p-2 transition-colors duration-100 hover:text-yellow-400">programs</Link>
+            <Link to="/about" className="p-2 transition-colors duration-100 hover:text-yellow-400">about</Link>
+            <Link to="/join" className="p-2 transition-colors duration-100 hover:text-yellow-400">join us</Link>
+            <Link to="/donate" className="p-2 text-yellow-300 font-semibold border-2 border-yellow-300 rounded-lg m-1 transition-colors duration-100 hover:text-yellow-500 hover:border-yellow-500">donate</Link>
         </nav>
         </div>
         

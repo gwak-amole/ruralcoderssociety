@@ -1,5 +1,5 @@
-const MyButton = () => {
-  return<button>I'm a Button</button>;
+const JoinButton = () => {
+  return<button className="text-yellow-300 border-yellow-300 border-2 rounded-lg p-3 px-16 bg-gray-50/25 font-bold text-2xl italic font-sans">join us</button>;
 }
 
-export default MyButton;
+export default JoinButton;

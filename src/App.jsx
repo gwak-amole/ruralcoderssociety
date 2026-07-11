@@ -1,9 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
-
-const About = () => <div style={{padding: '2rem'}}><h2>About Page</h2></div>
-const Contact = () => <div style={{padding: '2rem'}}><h2>Contact Page</h2></div>
+import Programs from './pages/Programs'
+import About from './pages/About'
+import Join from './pages/Join'
+import Donate from './pages/Donate'
 
 export default function App() {
     return (
@@ -12,8 +13,10 @@ export default function App() {
 
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/" element={<About />} />
-                <Route path="/" element={<Contact />} />
+                <Route path="/programs" element={<Programs />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/join" element={<Join />} />
+                <Route path="/donate" element={<Donate />} />
             </Routes>
         </>
     )
