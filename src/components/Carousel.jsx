@@ -16,8 +16,8 @@ const imageStyle = {
 
 function Carousel() {
   return (
-    <div className="relative flex w-full p-5 justify-center my-8">
-      <div className="container w-full mx-auto relative z-20 overflow-x-hidden">
+    <div className="relative flex w-full p-5 justify-center my-3">
+      <div className="w-full relative z-20">
         <Splide
           options = {{
             type: "loop",
@@ -25,7 +25,7 @@ function Carousel() {
             interval: 3000,
             speed: 800,
             pauseOnHover: false,
-            pauseOnFocus: false,
+            pauseOnFocus: true,
             perPage: 1,
             perMove: 1,
             arrows: false,
