@@ -11,7 +11,7 @@ import photo5 from "../assets/photo5.png"
 const imageStyle = {
   height: '350px',
   borderRadius: '20px',
-  border: '1px solid black',
+  border: 'none',
 }
 
 function Carousel() {
