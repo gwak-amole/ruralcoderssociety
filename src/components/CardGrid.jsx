@@ -17,7 +17,7 @@ const CardGrid = ({cols = 1, cards, card_type}) => {
 
     return(
         <div className={`grid place-items-center ${gridCols[cols]} text-center p-12 pt-5`}>
-            {cards.map(card => (<SelectedCard key={card.key} number={card.number} prefix={card.prefix} suffix={card.suffix} desc={card.desc} />))}
+            {cards.map(card => (<SelectedCard key={card.key} number={card.number} header={card.header} prefix={card.prefix} suffix={card.suffix} desc={card.desc} />))}
         </div>
     );
 }

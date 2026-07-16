@@ -5,6 +5,8 @@ import NumberFlow from '@number-flow/react';
 const InfoCard = ({ number = 0, prefix, suffix, desc = ""}) => {
     const [value, setValue] = useState(0);
     const hasTriggered = useRef(false);
+    // my learning note again: useRef can be used to reference a spec element instead of id
+    // esp when mapped
     const cardRef = useRef(null);
 
 
