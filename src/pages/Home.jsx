@@ -3,6 +3,7 @@ import JoinButton from "../components/Button"
 import CardGrid from "../components/CardGrid";
 import HeaderDiv from "../components/HeaderDiv";
 import HeaderDiv2 from "../components/HeaderDiv2";
+import Footer from "../components/Footer";
 
 
 
@@ -24,6 +25,7 @@ function Home() {
         <Carousel />
         <HeaderDiv header="Our Impact" content={<CardGrid cols={3} cards={cards} card_type={1}/>} />
         <HeaderDiv2 header="How We Do It" content={<CardGrid cols={3} cards={cards2} card_type={2}/>}/>
+        <Footer />
     </div>
   )
 }
