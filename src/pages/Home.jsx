@@ -6,14 +6,14 @@ import HeaderDiv2 from "../components/HeaderDiv2";
 
 function Home() {
   const cards = [
-  {number: "$2000+", desc: "raised for RCS programs", key: 1},
-  {number: "9+", desc: "countries represented", key: 2},
-  {number: "15+", desc: "teens involved in RCS", key: 3}
+  {number: 2000, prefix: "$", suffix: null, desc: "raised for RCS programs", key: 1},
+  {number: 9, prefix: null, suffix: "+", desc: "countries represented", key: 2},
+  {number: 15, prefix: null, suffix: "+", desc: "teens involved in RCS", key: 3}
   ]
   const cards2 =[
-    {number: "Adventure", desc: "To broaden rural viewpoints, we bring rural kids to international adventures, whether it be coding competitions or projects.", key: 1},
-    {number: "Coding Sprints", desc: "We hold weekly 2-4 hour coding groups to hone coding skills through hands-on mini projects.", key: 2},
-    {number: "Fundraising", desc: "From local initiatives to corporate partners, we make sure to cover potential travel expenses from our international adventures.", key: 3}
+    {header: "Adventure", desc: "To broaden rural viewpoints, we bring rural kids to international adventures, whether it be coding competitions or projects.", key: 1},
+    {header: "Coding Sprints", desc: "We hold weekly 2-4 hour coding groups to hone coding skills through hands-on mini projects.", key: 2},
+    {header: "Fundraising", desc: "From local initiatives to corporate partners, we make sure to cover potential travel expenses from our international adventures.", key: 3}
   ]
   return (
     <div className="h-144 w-full bg-blue-950 text-center">
