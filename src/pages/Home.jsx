@@ -4,6 +4,8 @@ import CardGrid from "../components/CardGrid";
 import HeaderDiv from "../components/HeaderDiv";
 import HeaderDiv2 from "../components/HeaderDiv2";
 
+
+
 function Home() {
   const cards = [
   {number: 2000, prefix: "$", suffix: null, desc: "raised for RCS programs", key: 1},
@@ -20,7 +22,7 @@ function Home() {
         <h1 className="font-title text-7xl text-center p-32 pt-15 font-semibold text-white pb-8">Coding for <span className="text-amber-400">Every Zip Code</span></h1>
         <JoinButton />
         <Carousel />
-        <HeaderDiv header="Our Impact" content={<CardGrid cols={3} cards={cards} card_type={1} />} />
+        <HeaderDiv header="Our Impact" content={<CardGrid cols={3} cards={cards} card_type={1}/>} />
         <HeaderDiv2 header="How We Do It" content={<CardGrid cols={3} cards={cards2} card_type={2}/>}/>
     </div>
   )
