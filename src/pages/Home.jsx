@@ -9,9 +9,9 @@ import Footer from "../components/Footer";
 
 function Home() {
   const cards = [
-  {number: 2000, prefix: "$", suffix: null, desc: "raised for RCS programs", key: 1},
-  {number: 9, prefix: null, suffix: "+", desc: "countries represented", key: 2},
-  {number: 15, prefix: null, suffix: "+", desc: "teens involved in RCS", key: 3}
+  {number: 1960.09, prefix: "$", suffix: null, desc: "raised for RCS programs", key: 1},
+  {number: 42, prefix: null, suffix: "+", desc: "projects created", key: 2},
+  {number: 45, prefix: null, suffix: "+", desc: "people reached through RCS events", key: 3}
   ]
   const cards2 =[
     {header: "Adventure", desc: "To broaden rural viewpoints, we bring rural kids to international adventures, whether it be coding competitions or projects.", key: 1},
