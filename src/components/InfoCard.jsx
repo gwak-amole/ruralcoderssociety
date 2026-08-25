@@ -39,9 +39,9 @@ const InfoCard = ({ number = 0, prefix, suffix, desc = ""}) => {
         }
     }, [number])
     return(
-        <div ref={cardRef} className="border-0 p-8 m-2 w-96 rounded-3xl bg-blue-400">
-            <NumberFlow className="text-6xl font-semibold m-5 text-amber-300" value={value} prefix={prefix} suffix={suffix} id="data-container"/>
-            <p className="m-3 text-xl text-amber-400">{desc}</p>
+        <div ref={cardRef} className="p-8 m-2 w-96 h-64 rounded-3xl border-blue-300 border-4 bg-blue-400 hover:-translate-y-0.5 hover:bg-blue-500 duration-150 ease-in-out">
+            <NumberFlow className="text-6xl font-semibold m-5 text-amber-200" value={value} prefix={prefix} suffix={suffix} id="data-container"/>
+            <p className="m-3 text-xl text-amber-300">{desc}</p>
         </div>
     );
 }
