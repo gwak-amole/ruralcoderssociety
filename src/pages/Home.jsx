@@ -5,6 +5,7 @@ import CardGrid from "../components/CardGrid";
 import HeaderDiv from "../components/HeaderDiv";
 import HeaderDiv2 from "../components/HeaderDiv2";
 import Footer from "../components/Footer";
+import buildCollaboratively from "../assets/how_we_do_it_images/build_collaboratively.avif"
 
 
 
@@ -15,9 +16,9 @@ function Home() {
   {number: 45, prefix: null, suffix: "+", desc: "people reached through RCS events", key: 3}
   ]
   const cards2 =[
-    {header: "Build", desc: "Learn by shipping real projects through beginner-friendly Build Sprints, workshops, and bootcamps.", key: 1},
-    {header: "Explore", desc: "Access hackathons, showcases, and technical experiences that may not exist in your community.", key: 2},
-    {header: "Connect", desc: "Build together with other teen coders, mentors, and communities locally and around the world.", key: 3}
+    {header: "Build", desc: "Learn by shipping real projects through beginner-friendly Build Sprints, workshops, and bootcamps.", image_link: buildCollaboratively, key: 1},
+    {header: "Explore", desc: "Access hackathons, showcases, and technical experiences that may not exist in your community.", image_link: buildCollaboratively, key: 2},
+    {header: "Connect", desc: "Build together with other teen coders, mentors, and communities locally and around the world.", image_link: buildCollaboratively, key: 3}
   ]
   return (
     <div className="h-144 w-full pt-22 bg-blue-950 text-center">
