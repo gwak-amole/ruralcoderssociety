@@ -15,9 +15,9 @@ function Home() {
   {number: 45, prefix: null, suffix: "+", desc: "people reached through RCS events", key: 3}
   ]
   const cards2 =[
-    {header: "Adventure", desc: "To broaden rural viewpoints, we bring rural kids to international adventures, whether it be coding competitions or projects.", key: 1},
-    {header: "Coding Sprints", desc: "We hold weekly 2-4 hour coding groups to hone coding skills through hands-on mini projects.", key: 2},
-    {header: "Fundraising", desc: "From local initiatives to corporate partners, we make sure to cover potential travel expenses from our international adventures.", key: 3}
+    {header: "Build", desc: "Learn by shipping real projects through beginner-friendly Build Sprints, workshops, and bootcamps.", key: 1},
+    {header: "Explore", desc: "Access hackathons, showcases, and technical experiences that may not exist in your community.", key: 2},
+    {header: "Connect", desc: "Build together with other teen coders, mentors, and communities locally and around the world.", key: 3}
   ]
   return (
     <div className="h-144 w-full pt-22 bg-blue-950 text-center">
