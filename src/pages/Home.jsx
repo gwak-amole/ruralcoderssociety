@@ -20,7 +20,7 @@ function Home() {
     {header: "Fundraising", desc: "From local initiatives to corporate partners, we make sure to cover potential travel expenses from our international adventures.", key: 3}
   ]
   return (
-    <div className="h-144 w-full bg-blue-950 text-center">
+    <div className="h-144 w-full pt-22 bg-blue-950 text-center">
         <h1 className="font-title text-7xl text-center p-32 pt-15 font-semibold text-white pb-8">Coding for <span className="text-amber-400 hover:text-amber-300 duration-300 ease-in-out">Every Zip Code</span></h1>
         <h3 className="text-2xl text-center pb-8 font-semibold text-white"><span className="underline text-yellow-400 hover:text-yellow-300 duration-300 ease-in-out">Free</span> project-based coding opportunities and communities for students in <span className="text-yellow-400 underline hover:text-yellow-300 duration-300 ease-in-out">rural and underserved areas.</span></h3>
         <JoinDiscord />
