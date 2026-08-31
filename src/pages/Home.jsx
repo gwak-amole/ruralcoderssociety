@@ -55,7 +55,7 @@ function Home() {
         <hr className="border-blue-900"></hr>
         <HeaderDiv2 header="How We Do It" content={<CardGrid cols={3} cards={cards2} card_type={2}/>}/>
 
-        <Featured customphotoarray={projectphotoarray} />
+        <Featured header="Featured Projects" customphotoarray={projectphotoarray} />
 
         <Footer />
     </div>
