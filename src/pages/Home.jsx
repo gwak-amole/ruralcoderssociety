@@ -10,6 +10,8 @@ import Footer from "../components/Footer";
 
 // file imports for how we do it
 import buildCollaboratively from "../assets/how_we_do_it_images/build_collaboratively.avif"
+import group from "../assets/how_we_do_it_images/group.jpg"
+import food from "../assets/how_we_do_it_images/foodinjpeg.jpg"
 
 // file imports for project carousel
 import project1 from "../assets/projects/project1.jpg"
@@ -29,8 +31,8 @@ function Home() {
   ]
   const cards2 =[
     {header: "Build", desc: "Learn by shipping real projects through beginner-friendly Build Sprints, workshops, and bootcamps.", image_link: buildCollaboratively, key: 1},
-    {header: "Explore", desc: "Access hackathons, showcases, and technical experiences that may not exist in your community.", image_link: buildCollaboratively, key: 2},
-    {header: "Connect", desc: "Build together with other teen coders, mentors, and communities locally and around the world.", image_link: buildCollaboratively, key: 3}
+    {header: "Explore", desc: "Access hackathons, showcases, and technical experiences that may not exist in your community.", image_link: group, key: 2},
+    {header: "Connect", desc: "Build together with other teen coders, mentors, and communities locally and around the world.", image_link: food, key: 3}
   ]
 
   const projectphotoarray = [
