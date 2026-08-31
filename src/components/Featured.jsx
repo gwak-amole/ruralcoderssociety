@@ -2,11 +2,15 @@ import ProjectCarousel from "./ProjectCarousel"
 
 const featured = ({header, customphotoarray = []}) => {
     return(
-        <div>
-            <h1>{header}</h1>
-            <ProjectCarousel photoarray={customphotoarray}/>
+        <div className="p-5 pt-15 bg-blue-300 rounded-3xl bg-linear-to-b from-gray-100 to-transparent">
+            <h1 className="text-6xl font-title text-blue-950">{header}</h1>
+                <div className="bg-blue-950 rounded-2xl mt-4">
+                    <ProjectCarousel photoarray={customphotoarray}/>
+                </div>
         </div>
     );
 }
+
+// change the timing of the slides 
 
 export default featured
