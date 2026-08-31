@@ -23,11 +23,11 @@ const ProjectCarousel = ({photoarray = []}) => {
                 perMove: 1,
                 arrows: false,
                 pagination: false,
-                fixedWidth: '500px',
-                gap: '12px',
+                fixedWidth: "auto",
+                gap: '5px',
               }}
             >
-            {photoarray.map(photo => (<SplideSlide img src={photo.file} alt="RCS Project" style={imageStyle}></SplideSlide>))}
+            {photoarray.map(photo => (<SplideSlide key={photo.key}> <img src={photo.file} alt="RCS Project" style={imageStyle} /> </SplideSlide>))}
             </Splide>
           </div>
         </div>

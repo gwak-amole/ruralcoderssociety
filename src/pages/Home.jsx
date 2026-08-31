@@ -34,13 +34,13 @@ function Home() {
   ]
 
   const projectphotoarray = [
-    {file: project1},
-    {file: project2},
-    {file: project3},
-    {file: project4},
-    {file: project5},
-    {file: project6},
-    {file: project7},
+    {file: project1, key: 1},
+    {file: project2, key: 2},
+    {file: project3, key: 3},
+    {file: project4, key: 4},
+    {file: project5, key: 5},
+    {file: project6, key: 6},
+    {file: project7, key: 7}
   ]
 
   return (
@@ -55,7 +55,7 @@ function Home() {
         <hr className="border-blue-900"></hr>
         <HeaderDiv2 header="How We Do It" content={<CardGrid cols={3} cards={cards2} card_type={2}/>}/>
 
-        <Featured />
+        <Featured customphotoarray={projectphotoarray} />
 
         <Footer />
     </div>
