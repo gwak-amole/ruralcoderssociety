@@ -11,6 +11,4 @@ const featured = ({header, customphotoarray = []}) => {
     );
 }
 
-// change the timing of the slides 
-
 export default featured
