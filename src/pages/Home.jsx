@@ -52,10 +52,9 @@ function Home() {
         <Carousel />
         <hr className="border-blue-900"></hr>
         <HeaderDiv header="Our Impact" content={<CardGrid cols={3} cards={cards} card_type={1}/>} />
+        <Featured header="Featured Projects" customphotoarray={projectphotoarray} />
         <hr className="border-blue-900"></hr>
         <HeaderDiv2 header="How We Do It" content={<CardGrid cols={3} cards={cards2} card_type={2}/>}/>
-
-        <Featured header="Featured Projects" customphotoarray={projectphotoarray} />
 
         <Footer />
     </div>
