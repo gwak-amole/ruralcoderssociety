@@ -21,7 +21,7 @@ const ProjectCarousel = ({photoarray = []}) => {
                 pauseOnFocus: true,
                 perPage: 1,
                 perMove: 1,
-                arrows: false,
+                arrows: true,
                 pagination: false,
                 fixedWidth: "auto",
                 gap: '5px',
