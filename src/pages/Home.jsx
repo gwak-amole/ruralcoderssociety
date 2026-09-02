@@ -26,7 +26,7 @@ import project7 from "../assets/projects/project7.jpg"
 function Home() {
   const cards = [
   {number: 1960, prefix: "$", suffix: "+", desc: "raised for RCS programs", key: 1},
-  {number: 42, prefix: null, suffix: "+", desc: "projects created with RCS", key: 2},
+  {number: 51, prefix: null, suffix: "+", desc: "projects created with RCS", key: 2},
   {number: 45, prefix: null, suffix: "+", desc: "people reached through RCS events", key: 3}
   ]
   const cards2 =[
