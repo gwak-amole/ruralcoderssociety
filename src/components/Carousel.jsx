@@ -30,7 +30,7 @@ function Carousel() {
             perMove: 1,
             arrows: false,
             pagination: false,
-            fixedWidth: '500px',
+            fixedWidth: 'auto',
             gap: '12px',
           }}
         >
