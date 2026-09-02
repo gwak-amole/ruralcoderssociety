@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Link to="/programs" className="p-2 transition-colors duration-100 hover:text-amber-400">programs</Link>
                 <Link to="/about" className="p-2 transition-colors duration-100 hover:text-amber-400">about</Link>
                 <Link to="https://hcb.hackclub.com/donations/start/rural-coders-society" target="_blank" className="p-2 text-blue-300 font-semibold border-2 border-blue-300 rounded-lg m-1 transition-colors duration-100 hover:text-blue-400 hover:border-blue-400">donate</Link>
-                <Link to="/join" className="p-2 text-amber-400 font-semibold border-2 border-amber-400 rounded-lg m-1 transition-colors duration-100 hover:text-yellow-600 hover:border-yellow-600">join us</Link>
+                <Link to="https://ruralcoderssociety.fillout.com/t/fHUR7XnmwBus" target="_blank" className="p-2 text-amber-400 font-semibold border-2 border-amber-400 rounded-lg m-1 transition-colors duration-100 hover:text-yellow-600 hover:border-yellow-600">join us</Link>
             </nav>
         </div>
         
