@@ -23,7 +23,7 @@ function Programs() {
                     <h1 className="font-title text-7xl text-center p-32 pt-20 font-semibold text-white pb-8">Our <span className="text-amber-400 hover:text-amber-300 duration-300 ease-in-out">Programs</span></h1>
                 </div>
                 <div className="block m-12 text-center">
-                    <div className="text-xl text-blue-950 w-150 mx-auto mt-10">
+                    <div className="text-xl text-blue-950 w-150 mx-auto mt-10 -mb-20 border rounded-4xl p-8">
                         <h1 className="text-4xl mb-3 font-bold">How We Help</h1>
                         <p className="font-desc">We provide spaces and communities for collaborative, project-making opportunities. This spans from our Build Sprints—2-week long themed project-building periods—to our hackathon trips. Our mentor network helps members with project guidance and getting unstuck!</p>
                     </div>
