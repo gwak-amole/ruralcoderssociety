@@ -24,7 +24,7 @@ function Programs() {
                 </div>
                 <div className="block m-12 text-center">
                     <div className="text-xl text-blue-950 w-150 mx-auto mt-10">
-                        <h1 className="text-4xl mb-3">How We Help</h1>
+                        <h1 className="text-4xl mb-3 font-bold">How We Help</h1>
                         <p>We provide spaces and communities for collaborative, project-making opportunities. This spans from our Build Sprints—2-week long themed project-building periods—to our hackathon trips. Our mentor network helps members with project guidance and getting unstuck!</p>
                     </div>
                 </div>
