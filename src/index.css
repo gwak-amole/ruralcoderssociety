@@ -2,4 +2,5 @@
 @theme {
   --font-sans: "Google Sans", system-ui;
   --font-title: "Zen Dots", system-ui;
+  --font-desc: "Inter", system-ui;
 }
