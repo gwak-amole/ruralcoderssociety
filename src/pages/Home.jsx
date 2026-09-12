@@ -46,11 +46,13 @@ function Home() {
   ]
 
   return (
-    <div className="h-144 w-full pt-22 bg-blue-950 text-center">
+    <div className="text-center">
+      <div className="h-144 w-full pt-22 bg-blue-950 text-center mb-75">
         <h1 className="font-title text-7xl text-center p-32 pt-15 font-semibold text-white pb-8">Coding for <span className="text-amber-400 hover:text-amber-300 duration-300 ease-in-out">Every Zip Code</span></h1>
         <h3 className="text-2xl text-center pb-8 font-semibold text-white"><span className="underline text-yellow-400 hover:text-yellow-300 duration-300 ease-in-out">Free</span> project-based coding opportunities and communities for students in <span className="text-yellow-400 underline hover:text-yellow-300 duration-300 ease-in-out">rural and underserved areas.</span></h3>
         <JoinButton />
         <Carousel />
+      </div>
         <hr className="border-blue-900"></hr>
         <HeaderDiv header="Our Impact" content={<CardGrid cols={3} cards={cards} card_type={1}/>} />
         <Featured header="Featured Projects" customphotoarray={projectphotoarray} />
