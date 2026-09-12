@@ -19,7 +19,7 @@ function Programs() {
     return(
         <div>
             <div>
-                <div className="h-96 w-full pt-22 bg-blue-950 text-center">
+                <div className="h-96 w-full pt-22 bg-blue-900 bg-linear-to-b from-transparent to-blue-950 text-center">
                     <h1 className="font-title text-7xl text-center p-32 pt-20 font-semibold text-white pb-8">Our <span className="text-amber-400 hover:text-amber-300 duration-300 ease-in-out">Programs</span></h1>
                 </div>
                 <div className="block m-12 text-center">

@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 function About() {
     return(
         <div>
-            <div className="h-144 w-full pt-22 bg-blue-950 text-center">
+            <div className="h-144 w-full pt-22 bg-blue-900 bg-linear-to-b from-transparent to-blue-950 text-center">
                 <h1 className="font-title text-7xl text-center p-32 pt-15 font-semibold text-white pb-8">About <span className="text-amber-400 hover:text-amber-300 duration-300 ease-in-out">Rural Coders Society</span></h1>
             </div>
             <div className="block m-12 text-center">
