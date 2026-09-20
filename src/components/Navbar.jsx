@@ -20,10 +20,18 @@ const Navbar = () => {
                     <Link to="https://ruralcoderssociety.fillout.com/t/fHUR7XnmwBus" target="_blank" className="p-2 text-amber-400 font-semibold border-2 border-amber-400 rounded-lg m-1 transition-colors duration-100 hover:text-yellow-600 hover:border-yellow-600">join us</Link>
                 </nav>
 
-                <button className="md:hidden text-3xl text-white p-2" onClick={() => setOpen(!open)} aria-label="Toggle navigation">{open ? "×" : "☰"}</button>
-
+                <button className="md:hidden text-3xl text-white px-0" onClick={() => setOpen(!open)}>{open ? "×" : "☰"}</button>
             </div>
-
+            {open && (
+                    <nav className="md:hidden flex flex-col gap-2 px-8 pb-5 text-lg pt-4 h-full -mr-4 text-white bg-blue-900">
+                        <Link to="/" onClick={() => setOpen(false)}>home</Link>
+                        <Link to="/programs" onClick={() => setOpen(false)}>programs</Link>
+                        <Link to="/about" onClick={() => setOpen(false)}>about</Link>
+                        <Link to="https://hcb.hackclub.com/donations/start/rural-coders-society" target="_blank" onClick={() => setOpen(false)}>donate</Link>
+                        <Link to="https://ruralcoderssociety.fillout.com/t/fHUR7XnmwBus" target="_blank" onClick={() => setOpen(false)}>join us</Link>
+                    
+                    </nav>
+                )}
         </header>
         
     );
