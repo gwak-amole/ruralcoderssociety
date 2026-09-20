@@ -12,4 +12,11 @@ This is the new revamped/enhanced website for Rural Coders Society!
 
 ## Viewing the website
 The site lives on: https://www.ruralcoderssociety.org/
+<br>
 It works on mobile devices as well!
+
+## Libraries Used
+- NumberFlow for React https://number-flow.barvian.me/
+- SplideJS https://splidejs.com/
+
+Thanks for checking this out!
